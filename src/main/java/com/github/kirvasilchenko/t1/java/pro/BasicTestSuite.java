@@ -4,7 +4,7 @@ import com.github.kirvasilchenko.t1.java.pro.annotation.AfterSuite;
 import com.github.kirvasilchenko.t1.java.pro.annotation.BeforeSuite;
 import com.github.kirvasilchenko.t1.java.pro.annotation.Test;
 
-public class TestSuite {
+public class BasicTestSuite {
 
     @BeforeSuite
     public void beforeSuite() {

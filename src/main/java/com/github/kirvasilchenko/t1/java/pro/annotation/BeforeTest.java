@@ -5,9 +5,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Annotation for test. Set it in static methods that should be executed after suite.
+ * Annotation for test. Set it in static methods that should be executed before each test.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({java.lang.annotation.ElementType.METHOD})
-public @interface AfterSuite {
+public @interface BeforeTest {
+
 }
