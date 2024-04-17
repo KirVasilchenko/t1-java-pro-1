@@ -1,6 +1,6 @@
-package com.github.kirvasilchenko.t1.java.pro;
+package com.github.kirvasilchenko.t1.java.pro.homework1;
 
-import com.github.kirvasilchenko.t1.java.pro.annotation.AfterSuite;
+import com.github.kirvasilchenko.t1.java.pro.homework1.annotation.AfterSuite;
 
 public class TestSuiteFailOnAfter {
 
