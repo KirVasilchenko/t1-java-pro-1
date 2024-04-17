@@ -1,4 +1,4 @@
-package com.github.kirvasilchenko.t1.java.pro.annotation;
+package com.github.kirvasilchenko.t1.java.pro.homework1.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

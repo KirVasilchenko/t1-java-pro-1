@@ -1,11 +1,11 @@
-package com.github.kirvasilchenko.t1.java.pro;
+package com.github.kirvasilchenko.t1.java.pro.homework1;
 
-import com.github.kirvasilchenko.t1.java.pro.annotation.AfterSuite;
-import com.github.kirvasilchenko.t1.java.pro.annotation.AfterTest;
-import com.github.kirvasilchenko.t1.java.pro.annotation.BeforeSuite;
-import com.github.kirvasilchenko.t1.java.pro.annotation.BeforeTest;
-import com.github.kirvasilchenko.t1.java.pro.annotation.CsvSource;
-import com.github.kirvasilchenko.t1.java.pro.annotation.Test;
+import com.github.kirvasilchenko.t1.java.pro.homework1.annotation.AfterSuite;
+import com.github.kirvasilchenko.t1.java.pro.homework1.annotation.AfterTest;
+import com.github.kirvasilchenko.t1.java.pro.homework1.annotation.BeforeSuite;
+import com.github.kirvasilchenko.t1.java.pro.homework1.annotation.BeforeTest;
+import com.github.kirvasilchenko.t1.java.pro.homework1.annotation.CsvSource;
+import com.github.kirvasilchenko.t1.java.pro.homework1.annotation.Test;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.InvocationTargetException;
@@ -25,9 +25,9 @@ public class TestRunner {
      * Get all methods annotated with @Test or @BeforeSuite or @AfterSuite.
      *
      * @param c class to scan
-     * @see com.github.kirvasilchenko.t1.java.pro.annotation.Test
-     * @see com.github.kirvasilchenko.t1.java.pro.annotation.BeforeSuite
-     * @see com.github.kirvasilchenko.t1.java.pro.annotation.AfterSuite
+     * @see com.github.kirvasilchenko.t1.java.pro.homework1.annotation.Test
+     * @see com.github.kirvasilchenko.t1.java.pro.homework1.annotation.BeforeSuite
+     * @see com.github.kirvasilchenko.t1.java.pro.homework1.annotation.AfterSuite
      */
     static void runTests(Class<?> c) {
         try {

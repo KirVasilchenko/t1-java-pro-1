@@ -1,4 +1,4 @@
-package com.github.kirvasilchenko.t1.java.pro;
+package com.github.kirvasilchenko.t1.java.pro.homework1;
 
 public class TestApp {
 
